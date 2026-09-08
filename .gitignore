@@ -1,0 +1,49 @@
+# Python
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+tests/_work/
+
+# Database (generated at runtime)
+*.db
+*.db-shm
+*.db-wal
+backend/*.db
+backend/app/*.db
+
+# Uploaded PDFs (user data, not source)
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Sample layer JSON and demo PDFs (generated, not source)
+data/samples/layer.json
+data/samples/demo-*.pdf
+
+# Frontend build artifacts (if any)
+frontend/node_modules/
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Screenshots folder (large binary files)
+PICS/
+
+# Assignment PDF
+superjoin-vit-2026-assignment.pdf
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Screenshots folder (optional, can be large)
+# PICS/
