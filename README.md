@@ -1,4 +1,4 @@
-# FactLayer — Fact Knowledge Layer
+# FactLayer — Every fact traced to its source, every conflict explained.
 
 > **SuperJoin VIT 2026 Intern Assignment**
 > Extract grounded facts from PDFs → link to source evidence → identify corroboration, contradiction, and reconciliation across documents.
@@ -7,6 +7,9 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-green)
 ![Tests](https://img.shields.io/badge/Tests-16%2F16%20passing-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20App-2563eb?style=for-the-badge&logo=railway&logoColor=white)](https://factlayer-production-f1bb.up.railway.app/)
+[![Demo Video](https://img.shields.io/badge/Demo%20Video-Watch%20Now-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](YOUR_VIDEO_URL_HERE)
 
 ---
 
