@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: factlayer
+    runtime: docker
+    repo: https://github.com/ArpitMakkar12/FactLayer.git
+    branch: main
+    plan: free
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite:///./app.db
+      - key: UPLOAD_DIR
+        value: /app/data/uploads

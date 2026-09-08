@@ -1,0 +1,17 @@
+# Ignore heavy files not needed in deployment
+PICS/
+.git/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.db
+*.db-shm
+*.db-wal
+data/uploads/*
+data/samples/layer.json
+data/samples/demo-*.pdf
+superjoin-vit-2026-assignment.pdf
+.env
+.venv/
+venv/
+tests/_work/
